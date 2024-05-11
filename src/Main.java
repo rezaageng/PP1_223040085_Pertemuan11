@@ -16,7 +16,7 @@ public class Main {
 
             ParsePost parsePost = new ParsePost(input);
             output = parsePost.doParse();
-            System.out.println("Evaluates to " + output);
+            System.out.println("Result " + output);
         }
     }
 
